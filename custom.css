@@ -9,14 +9,36 @@
 
 body {
     font-family: 'Roboto';
-
+    padding-top: 56px;
 }
 
 h1 {
-    font-size: 72px;
     font-family: 'Roboto-light'
 }
 
 p {
     font-size: 16px;
+}
+
+.portfolio-block {
+    background-color: #E9ECEF;
+}
+
+.portfolio-block p {
+    font-size: 16px;
+}
+
+.portfolio-block h1 {
+    font-size: 72px;
+}
+
+
+@media (max-width: 576px) {
+     .portfolio-block h1 {
+        font-size: 48px;
+    }
+}
+
+.hover:hover {
+    background-color: #E9ECEF;
 }
